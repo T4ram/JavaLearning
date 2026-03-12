@@ -15,8 +15,8 @@ public class EscolhaController {
 
     public void escolha(){
 
-        ppl.Setname(cad.boasVindas());
-        cad.apresentação(ppl.Getname());
+        ppl.setName(cad.boasVindas());
+        cad.apresentação(ppl.getName());
 
 
         switch (view.mostrarInterface()){

@@ -3,10 +3,10 @@ package Model;
 public class PessoaModel {
     private String name;
 
-    public String Getname(){
+    public String getName(){
         return name;
     }
-    public void Setname(String name){
+    public void setName(String name){
         this.name = name;
     }
 }
