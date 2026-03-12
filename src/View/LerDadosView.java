@@ -3,10 +3,11 @@ package View;
 import java.util.Scanner;
 
 public class LerDadosView {
+
     Scanner sc = new Scanner(System.in);
 
     public int mostrarInterface(){
-        System.out.println("Controller.Escolha uma opção, digite: ");
+        System.out.println("EscolhaController uma opção, digite: ");
         System.out.println("1. Para somar ");
         System.out.println("2. Para saber a àrea de um circulo ");
 

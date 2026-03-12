@@ -1,12 +1,11 @@
-import Controller.Escolha;
+import Controller.EscolhaController;
 
 public class Main {
     public static void main(String[] args) {
 
-    Escolha escolher = new Escolha();
+    EscolhaController escolher = new EscolhaController();
 
     escolher.escolha();
-
 
     }
 

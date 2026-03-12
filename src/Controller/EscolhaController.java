@@ -1,15 +1,23 @@
 package Controller;
+import View.BoasVindasView;
 import View.LerDadosView;
 import Model.CalculadoraModel;
+import Model.PessoaModel;
 
 
 
-public class Escolha {
+public class EscolhaController {
 
     LerDadosView view = new LerDadosView();
     CalculadoraModel cal = new CalculadoraModel();
+    PessoaModel ppl = new PessoaModel();
+    BoasVindasView cad = new BoasVindasView();
 
     public void escolha(){
+
+        ppl.Setname(cad.boasVindas());
+        cad.apresentação(ppl.Getname());
+
 
         switch (view.mostrarInterface()){
             case 1:
