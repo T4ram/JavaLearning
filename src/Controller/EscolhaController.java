@@ -1,8 +1,8 @@
 package Controller;
 import View.BoasVindasView;
 import View.LerDadosView;
-import Model.CalculadoraModel;
-import Model.PessoaModel;
+import Model.Calculos.CalculadoraModel;
+import Model.Entity.PessoaModel;
 
 
 
@@ -14,10 +14,8 @@ public class EscolhaController {
     BoasVindasView cad = new BoasVindasView();
 
     public void escolha(){
-
         ppl.setName(cad.boasVindas());
         cad.apresentação(ppl.getName());
-
 
         switch (view.mostrarInterface()){
             case 1:

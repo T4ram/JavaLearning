@@ -1,5 +1,4 @@
 package View;
-import Model.PessoaModel;
 import java.util.Scanner;
 
 public class BoasVindasView {
